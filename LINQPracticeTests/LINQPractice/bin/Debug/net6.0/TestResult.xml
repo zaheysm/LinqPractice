@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="LINQPractice.dll" fullname="C:/Users/zahey/Documents/College/.NET Enterprise/optinal/LINQPracticeTests/LINQPractice/bin/Debug/net6.0/LINQPractice.dll" testcasecount="11" result="Failed" start-time="2023-05-26T14:05:08.9354108Z" end-time="2023-05-26T14:05:09.0908335Z" duration="0.155326" total="11" passed="10" failed="1" inconclusive="0" skipped="0" warnings="0" asserts="21" random-seed="1744890817">
+  <command-line><![CDATA["C:\Users\zahey\Documents\College\.NET Enterprise\optinal\LINQPracticeTests\LINQPractice\bin\Debug\net6.0\LINQPractice.dll"]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1012" name="LINQPractice.dll" fullname="C:/Users/zahey/Documents/College/.NET Enterprise/optinal/LINQPracticeTests/LINQPractice/bin/Debug/net6.0/LINQPractice.dll" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2023-05-26T14:05:08.9354108Z" end-time="2023-05-26T14:05:09.0908335Z" duration="0.155326" total="11" passed="10" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="21">
+    <environment framework-version="3.13.3.0" clr-version="6.0.16" os-version="Microsoft Windows 10.0.22000" platform="Win32NT" cwd="C:\Users\zahey\Documents\College\.NET Enterprise\optinal\LINQPracticeTests\LINQPractice\bin\Debug\net6.0" machine-name="LAPTOP-SEOIMKV8" user="zahey" user-domain="LAPTOP-SEOIMKV8" culture="en-CA" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\zahey\Documents\College\.NET Enterprise\optinal\LINQPracticeTests\LINQPractice\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="25672" />
+      <property name="_APPDOMAIN" value="LINQPractice" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestFixture" id="1000" name="LINQQueriesTests" fullname="LINQQueriesTests" classname="LINQQueriesTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2023-05-26T14:05:08.9465563Z" end-time="2023-05-26T14:05:09.0904876Z" duration="0.143931" total="11" passed="10" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="21">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-case id="1001" name="Query1_FindPeopleWithAgeBetween30And40AndHobbiesIncludeReading_ReturnsCorrectPeople" fullname="LINQQueriesTests.Query1_FindPeopleWithAgeBetween30And40AndHobbiesIncludeReading_ReturnsCorrectPeople" methodname="Query1_FindPeopleWithAgeBetween30And40AndHobbiesIncludeReading_ReturnsCorrectPeople" classname="LINQQueriesTests" runstate="Runnable" seed="1909360320" result="Passed" start-time="2023-05-26T14:05:08.9504893Z" end-time="2023-05-26T14:05:08.9709496Z" duration="0.020572" asserts="2" />
+      <test-case id="1008" name="Query10_CountPeopleWithHobbiesStartingWithS_ReturnsCorrectCount" fullname="LINQQueriesTests.Query10_CountPeopleWithHobbiesStartingWithS_ReturnsCorrectCount" methodname="Query10_CountPeopleWithHobbiesStartingWithS_ReturnsCorrectCount" classname="LINQQueriesTests" runstate="Runnable" seed="513158922" result="Passed" start-time="2023-05-26T14:05:08.9732783Z" end-time="2023-05-26T14:05:08.9738875Z" duration="0.000609" asserts="1" />
+      <test-case id="1009" name="Query11_SelectPeopleWithNamesContainingExactlyFiveLetters_ReturnsCorrectPeople" fullname="LINQQueriesTests.Query11_SelectPeopleWithNamesContainingExactlyFiveLetters_ReturnsCorrectPeople" methodname="Query11_SelectPeopleWithNamesContainingExactlyFiveLetters_ReturnsCorrectPeople" classname="LINQQueriesTests" runstate="Runnable" seed="4792357" result="Passed" start-time="2023-05-26T14:05:08.9739228Z" end-time="2023-05-26T14:05:08.9743539Z" duration="0.000431" asserts="3" />
+      <test-case id="1010" name="Query12_CheckIfAllPeopleAreAbove20YearsOld_ReturnsCorrectResult" fullname="LINQQueriesTests.Query12_CheckIfAllPeopleAreAbove20YearsOld_ReturnsCorrectResult" methodname="Query12_CheckIfAllPeopleAreAbove20YearsOld_ReturnsCorrectResult" classname="LINQQueriesTests" runstate="Runnable" seed="391980516" result="Passed" start-time="2023-05-26T14:05:08.9743717Z" end-time="2023-05-26T14:05:08.9752147Z" duration="0.000843" asserts="1" />
+      <test-case id="1011" name="Query13_SelectCommonHobbies_ReturnsCorrectHobbies" fullname="LINQQueriesTests.Query13_SelectCommonHobbies_ReturnsCorrectHobbies" methodname="Query13_SelectCommonHobbies_ReturnsCorrectHobbies" classname="LINQQueriesTests" runstate="Runnable" seed="266821411" result="Failed" start-time="2023-05-26T14:05:08.9752365Z" end-time="2023-05-26T14:05:09.0831656Z" duration="0.107929" asserts="2">
+        <failure>
+          <message><![CDATA[  Expected: some item equal to "Reading"
+  But was:  < < "Reading", "Gardening" >, < "Cooking", "Painting" >, < "Gaming", "Singing" > >
+]]></message>
+          <stack-trace><![CDATA[   at LINQQueriesTests.Query13_SelectCommonHobbies_ReturnsCorrectHobbies() in C:\Users\zahey\Documents\College\.NET Enterprise\optinal\LINQPracticeTests\LINQPractice\LINQQueriesTests.cs:line 181
+]]></stack-trace>
+        </failure>
+        <assertions>
+          <assertion result="Failed">
+            <message><![CDATA[  Expected: some item equal to "Reading"
+  But was:  < < "Reading", "Gardening" >, < "Cooking", "Painting" >, < "Gaming", "Singing" > >
+]]></message>
+            <stack-trace><![CDATA[   at LINQQueriesTests.Query13_SelectCommonHobbies_ReturnsCorrectHobbies() in C:\Users\zahey\Documents\College\.NET Enterprise\optinal\LINQPracticeTests\LINQPractice\LINQQueriesTests.cs:line 181
+]]></stack-trace>
+          </assertion>
+        </assertions>
+      </test-case>
+      <test-case id="1002" name="Query2_FindNamesOfPeopleWithAtLeastTwoHobbies_ReturnsCorrectNames" fullname="LINQQueriesTests.Query2_FindNamesOfPeopleWithAtLeastTwoHobbies_ReturnsCorrectNames" methodname="Query2_FindNamesOfPeopleWithAtLeastTwoHobbies_ReturnsCorrectNames" classname="LINQQueriesTests" runstate="Runnable" seed="186241581" result="Passed" start-time="2023-05-26T14:05:09.0833400Z" end-time="2023-05-26T14:05:09.0839812Z" duration="0.000641" asserts="6" />
+      <test-case id="1003" name="Query3_CountTotalNumberOfHobbiesAcrossAllPeople_ReturnsCorrectCount" fullname="LINQQueriesTests.Query3_CountTotalNumberOfHobbiesAcrossAllPeople_ReturnsCorrectCount" methodname="Query3_CountTotalNumberOfHobbiesAcrossAllPeople_ReturnsCorrectCount" classname="LINQQueriesTests" runstate="Runnable" seed="1231480652" result="Passed" start-time="2023-05-26T14:05:09.0840022Z" end-time="2023-05-26T14:05:09.0851221Z" duration="0.001120" asserts="1" />
+      <test-case id="1004" name="Query5_CheckIfPersonWithNameContainingAllVowelsExists_ReturnsCorrectResult" fullname="LINQQueriesTests.Query5_CheckIfPersonWithNameContainingAllVowelsExists_ReturnsCorrectResult" methodname="Query5_CheckIfPersonWithNameContainingAllVowelsExists_ReturnsCorrectResult" classname="LINQQueriesTests" runstate="Runnable" seed="1887043665" result="Passed" start-time="2023-05-26T14:05:09.0851404Z" end-time="2023-05-26T14:05:09.0859193Z" duration="0.000779" asserts="1" />
+      <test-case id="1005" name="Query6_FindPeopleWhoseNameStartsWithAAndAgeIsLessThan30_ReturnsCorrectPeople" fullname="LINQQueriesTests.Query6_FindPeopleWhoseNameStartsWithAAndAgeIsLessThan30_ReturnsCorrectPeople" methodname="Query6_FindPeopleWhoseNameStartsWithAAndAgeIsLessThan30_ReturnsCorrectPeople" classname="LINQQueriesTests" runstate="Runnable" seed="1957950022" result="Passed" start-time="2023-05-26T14:05:09.0859376Z" end-time="2023-05-26T14:05:09.0863427Z" duration="0.000405" asserts="2" />
+      <test-case id="1006" name="Query7_FindOldestPerson_ReturnsCorrectPerson" fullname="LINQQueriesTests.Query7_FindOldestPerson_ReturnsCorrectPerson" methodname="Query7_FindOldestPerson_ReturnsCorrectPerson" classname="LINQQueriesTests" runstate="Runnable" seed="1354311359" result="Passed" start-time="2023-05-26T14:05:09.0863713Z" end-time="2023-05-26T14:05:09.0890500Z" duration="0.002679" asserts="1" />
+      <test-case id="1007" name="Query8_CheckIfAnyPersonHasHobbiesStartingWithG_ReturnsCorrectResult" fullname="LINQQueriesTests.Query8_CheckIfAnyPersonHasHobbiesStartingWithG_ReturnsCorrectResult" methodname="Query8_CheckIfAnyPersonHasHobbiesStartingWithG_ReturnsCorrectResult" classname="LINQQueriesTests" runstate="Runnable" seed="887187590" result="Passed" start-time="2023-05-26T14:05:09.0890743Z" end-time="2023-05-26T14:05:09.0894583Z" duration="0.000384" asserts="1" />
+    </test-suite>
+  </test-suite>
+</test-run>

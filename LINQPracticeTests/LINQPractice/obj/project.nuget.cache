@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vFi7DFAF+p4b8G6tcTF8D4zxR1NrqdDHULD8u2rKdmdMFGeaJRpbvN0HfaEUC/VPlazKNbbbp3b/esnX1FILtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zahey\\Documents\\College\\.NET Enterprise\\optinal\\LINQPracticeTests\\LINQPractice\\LINQPractice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zahey\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\zahey\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\zahey\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\zahey\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\zahey\\.nuget\\packages\\nunitlite\\3.13.3\\nunitlite.3.13.3.nupkg.sha512"
+  ],
+  "logs": []
+}
